@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Operators in attribute selectors</title>
+    <title>Древовидные структуры</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
-    <link rel="stylesheet" type="text/css" href="selectors.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
     <style>
         Li {
             margin-bottom: 16px;
@@ -32,31 +32,23 @@
 </head>
 
 <body>
-    <h1 class="page-header">Operators in attribute selectors</h1>
+    <h1>Древовидные структуры</h1>
 
     <ul>
-        <li>
-            <a href="https://www.mozilla.org" title="link" lang="en-gb">Mozilla</a>
-        </li>
-        <li>
-            <a href="broken link https://microsoft.com" lang="english">Microsoft</a>
-        </li>
-        <li>
-            <a href="https://www.google.com" title="item popular">Google</a>
-        </li>
-        <li>
-            <a href="https://www.opera.com" title="popular item" lang="en-us">Opera</a>
-        </li>
-        <li>
-            <a href="https://www.apple.com" title="link popular">Apple</a>
-        </li>
-        <li>
-            <a href="https://www.wikipedia.org/" title="super-popular">Wikipedia</a>
-        </li>
-        <li title="item">
-            <a target="_blank" href="https://broken.org/">Strange company</a>
-        </li>
+        <li><span>1 - :first-child</span></li>
+        <li><span>2 - :last-child</span></li>
+        <li><span>3 - :nth-child()</span></li>
+        <li><span>4 - :nth-last-child()</span></li>
+        <li><span>5 - :nth-of-type()</span></li>
+        <li><span>6 - :last-of-type()</span></li>
     </ul>
+    <div class="paragraphs">
+        <p>Paragraph #1</p>
+        <p>Paragraph #2</p>
+        <div>Div</div>
+        <p>Paragraph #3</p>
+        <p>Paragraph #4</p>
+    </div>
 </body>
 
 </html>
