@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>Selectors Exercise</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
     <style>
         body {
             background-color: #bdc3c7;
@@ -22,7 +22,7 @@
             color: blue;
         }
         
-        P {
+        p {
             background-color: yellow;
         }
         
@@ -50,7 +50,7 @@
             background-color: yellow;
         }
         
-        div:nth-child(3) p:nth-child(2) {
+        div:nth-of-type(3) p:nth-of-type(2) {
             border: 5px solid white;
         }
         
@@ -89,12 +89,10 @@
 
     <div>
         <h2>I am another awesome h2</h2>
-
         <p>
             Tom Sawyer's best friends include Joe Harper and <em>Huckleberry</em> Finn. In The Adventures of Tom Sawyer, Tom's infatuation with classmate Becky Thatcher is apparent as he tries to intrigue her with his strength, boldness, and handsome
             looks. He first sees her after he confessed his feelings for Amy Lawrence, one of his classmates
         </p>
-
         <p>I'm the second paragraph inside this div!</p>
     </div>
 
