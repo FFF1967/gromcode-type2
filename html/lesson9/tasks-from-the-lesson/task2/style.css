@@ -10,5 +10,9 @@
 .red {
     background-color: red;
     float: right;
-    .green {}
+}
+
+.green {
+    background-color: green;
+    float: left;
 }
