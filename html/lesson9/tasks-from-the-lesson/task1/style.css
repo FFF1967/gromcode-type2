@@ -1,3 +1,24 @@
+.static-parent {
+    position: static;
+}
+
+.relative-parent {
+    position: relative;
+    bottom: 20px;
+    right: 50px;
+}
+
+.absolute-parent {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.fixed-parent {
+    top: 20px;
+    right: 30px;
+}
+
 div {
     padding: 16px;
 }
