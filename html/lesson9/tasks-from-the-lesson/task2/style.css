@@ -1,9 +1,14 @@
-.container {
-    float: left;
-    width: 50px;
+* {
+    box-sizing: border-box;
 }
 
 .container {
     float: left;
-    width: 50px;
+    width: 50%;
+}
+
+.red {
+    background-color: red;
+    float: right;
+    .green {}
 }
