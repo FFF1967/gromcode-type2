@@ -16,3 +16,7 @@
     background-color: green;
     float: left;
 }
+
+.footer {
+    clear: both;
+}
