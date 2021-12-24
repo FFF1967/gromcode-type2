@@ -1,0 +1,30 @@
+              .header {
+                  background-color: darkturquoise;
+                  height: 40px;
+              }
+              
+              .nav-item {
+                  float: left;
+                  height: 40px;
+                  color: white;
+                  margin-left: 16px;
+              }
+              
+              .nav-list {
+                  line-height: 40px;
+              }
+              
+              .content {
+                  background-color: beige;
+                  height: 5000px;
+              }
+              
+              li {
+                  list-style-type: none
+              }
+              
+              .head {
+                  height: 200px;
+                  width: 200px;
+                  background-color: aquamarine;
+              }
